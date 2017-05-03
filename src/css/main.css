@@ -87,8 +87,37 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   body{
+    font-family: 'Roboto', sans-serif;
+   }
 
+   div.timeline img{
+    z-index: -5;
+   }
 
+   div.timeline{
+    margin-top: 25px;
+   }
+
+   div.heading h1.name{
+    font-size: 125px;
+    margin-top: 0;
+    display: inline-block;
+    font-family: 'Milonga', cursive;
+   }
+
+   div.heading div.contact{
+    font-size: 30px;
+    margin: 0;
+    display: inline-block;
+    float: right;
+    margin-right: 70px;
+    text-align: center;
+   }
+
+   div.heading div.contact a{
+    font-size: 20px;
+   }
 
 
 
