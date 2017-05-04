@@ -91,19 +91,11 @@ textarea {
     font-family: 'Roboto', sans-serif;
    }
 
-   div.timeline img{
-    z-index: -5;
-   }
-
-   div.timeline{
-    margin-top: 25px;
-   }
-
    div.heading h1.name{
-    font-size: 125px;
-    margin-top: 0;
+    font-size: 102px;
+    margin: 0 0 0 0;
     display: inline-block;
-    font-family: 'Milonga', cursive;
+    font-family: 'Cinzel', serif;
    }
 
    div.heading div.contact{
@@ -113,15 +105,33 @@ textarea {
     float: right;
     margin-right: 70px;
     text-align: center;
-   }
+   } 
 
    div.heading div.contact a{
     font-size: 20px;
    }
 
 
+   div.timeline{
+    margin-top: 25px;
+   }
+    
+    div.timeline img{
+    z-index: -5;
+    margin-left: -30px;
+    margin-top: 15px;
+    position: absolute;
+   }
 
+   div.timeline div.words{
+    z-index: 3;
+    float: left;
+    margin-left: 275px;
+   }
 
+   div.timeline div.words h5{
+    margin-left: -100px;
+   }
 
 
 
