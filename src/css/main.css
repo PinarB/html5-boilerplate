@@ -91,29 +91,61 @@ textarea {
     font-family: 'Roboto', sans-serif;
    }
 
+   div.heading {
+    background-image: url('../img/tablepic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+   }
+
    div.heading h1.name{
     font-size: 102px;
-    margin: 0 0 0 0;
+    margin: 0;
+    margin-left: 20px;
     display: inline-block;
     font-family: 'Cinzel', serif;
+    z-index: 10;
    }
 
    div.heading div.contact{
-    font-size: 30px;
+    font-size: 19px;
     margin: 0;
+    margin-top: 23px;
     display: inline-block;
     float: right;
     margin-right: 70px;
     text-align: center;
+    line-height: 30px;
+    background-color: salmon;
    } 
 
    div.heading div.contact a{
-    font-size: 20px;
+    font-size: 19px;
+    color: teal;
    }
 
+   nav{
+    background-color: papayawhip;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin-top: 95px;
+    margin-left: 0px;
+   }
+
+   nav a{
+    display: inline-block;
+    color: teal;
+    padding: 10px;
+   }
 
    div.timeline{
-    margin-top: 25px;
+   }
+
+   h2{
+    font-size: 40px;
+    margin-left: 15px;
+    background-color: palevioletred;
    }
     
     div.timeline img{
@@ -121,6 +153,8 @@ textarea {
     margin-left: -30px;
     margin-top: 15px;
     position: absolute;
+    width: auto;
+    height: 1000px;
    }
 
    div.timeline div.words{
@@ -130,12 +164,40 @@ textarea {
    }
 
    div.timeline div.words h5{
-    margin-left: -100px;
+    margin-left: -75px;
+    color: teal;
+    font-size: 15px;
    }
 
+   div.timeline div.words div.clarkstuff{
+    margin-left: 150px;
+   }
 
+   div.timeline div.words div.clarkstuff h3{
+    margin-left: -25px;
+   }
 
+   div.timeline div.words div.hsstuff{
+    margin-left: 150px;
+   }
 
+   div.timeline div.words div.hsstuff h3{
+    margin-left: -25px;
+   }
+
+   div.timeline a{
+    color: teal;
+   }
+
+   div.skills img{
+   margin-left: 50px;
+      }
+
+   div.moreinfo a{
+    color: teal;
+    font-size: 19px;
+    margin-left: 15px;
+   }
 
 
 
