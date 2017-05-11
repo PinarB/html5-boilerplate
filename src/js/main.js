@@ -11,3 +11,23 @@ $(window).resize(function() {
 $(window).scroll(function() {
 	console.log('scroll');
 });
+
+
+$( ".timelineButton" ).click(function() {
+  $('.pagecontent div').hide();
+  $('.pagecontent .timeline').show();
+  $('.pagecontent .timeline .words').show();
+  $('.pagecontent .timeline .words .hsstuff').show();
+  $('.pagecontent .timeline .words .clarkstuff').show();
+});
+
+$( ".skillsButton" ).click(function() {
+  $('.pagecontent div').hide();
+  $('.pagecontent .skills').show();
+});
+
+$( ".infoButton" ).click(function() {
+  $('.pagecontent div').hide();
+  $('.pagecontent .moreinfo').show();
+});
+
