@@ -95,28 +95,29 @@ textarea {
     background-image: url('../img/tablepic.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    height: 800px;
+    height: 100vh;
    }
 
    div.heading h1.name{
-    font-size: 102px;
+    font-size: 10vw;
     margin: 0;
-    margin-left: 20px;
+    margin-left: 2vw;
     display: inline-block;
     font-family: 'Cinzel', serif;
     z-index: 10;
    }
 
    div.heading div.contact{
-    font-size: 19px;
+    font-size: 2vw;
     margin: 0;
-    margin-top: 23px;
+    margin-top: 2vw;
     display: inline-block;
     float: right;
-    margin-right: 70px;
+    margin-right: 2vw;
     text-align: center;
-    line-height: 30px;
-    background-color: salmon;
+    line-height: 20px;
+    background-color: papayawhip;
+    padding: 2vw;
    } 
 
    div.heading div.contact a{
@@ -129,8 +130,10 @@ textarea {
     text-align: center;
     position: fixed;
     width: 100%;
-    margin-top: 95px;
-    margin-left: 0px;
+    z-index: 9999;
+    bottom: 0;
+    left: 0;
+    right: 0;
    }
 
    nav a{
@@ -140,32 +143,34 @@ textarea {
    }
 
    div.timeline{
+
    }
 
    h2{
     font-size: 40px;
     margin-left: 15px;
-    background-color: palevioletred;
+    margin-top: 15px;
+    border: solid palevioletred;
+    border-width: 0 0 5px 0;
    }
     
     div.timeline img{
     z-index: -5;
-    margin-left: -30px;
+    margin-left: -100px;
     margin-top: 15px;
     position: absolute;
     width: auto;
-    height: 1000px;
+    height: 1300px;
    }
 
    div.timeline div.words{
     z-index: 3;
-    float: left;
     margin-left: 275px;
    }
 
    div.timeline div.words h5{
     margin-left: -75px;
-    color: teal;
+    color: palevioletred;
     font-size: 15px;
    }
 
@@ -193,10 +198,18 @@ textarea {
    margin-left: 50px;
       }
 
+   div.moreinfo ul{
+    list-style: none;
+    margin-left: 15px;
+   }
+
+   div.moreinfo li{
+    font-size: 19px;
+   }
+
    div.moreinfo a{
     color: teal;
     font-size: 19px;
-    margin-left: 15px;
    }
 
 
