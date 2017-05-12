@@ -91,38 +91,37 @@ textarea {
     font-family: 'Roboto', sans-serif;
    }
 
-   div.heading {
+   div.home {
     background-image: url('../img/tablepic.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+    z-index: -9999;
    }
 
    div.heading h1.name{
-    font-size: 10vw;
+    font-size: 9vw;
     margin: 0;
     margin-left: 2vw;
     display: inline-block;
     font-family: 'Cinzel', serif;
-    z-index: 10;
+    z-index: 100;
    }
 
    div.heading div.contact{
-    font-size: 2vw;
-    margin: 0;
+    font-size: 2vh;
     margin-top: 2vw;
     display: inline-block;
     float: right;
     margin-right: 2vw;
     text-align: center;
-    line-height: 20px;
-    background-color: papayawhip;
+    line-height: 2.5vh;
     padding: 2vw;
-   } 
+    background-color: palevioletred;
+   }
 
    div.heading div.contact a{
-    font-size: 19px;
-    color: teal;
+    color: black;
    }
 
    nav{
@@ -135,7 +134,7 @@ textarea {
    }
 
    nav button{
-    background-color: #bd16e2; /* Green */
+    background-color: #bf4080;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -147,7 +146,7 @@ textarea {
     }
 
     button:hover {
-        background-color: #9a0dba;
+        background-color: #993366;
         color: white;
     }
 
@@ -160,6 +159,11 @@ textarea {
     border-width: 0 0 5px 0;
    }
     
+    div.timeline {
+      display: none;
+    }
+
+
     div.timeline img{
     z-index: -5;
     margin-left: -100px;
@@ -200,10 +204,18 @@ textarea {
     color: teal;
    }
 
+   div.skills {
+    display: none;
+   }
+
    div.skills img{
    margin-left: 50px;
       }
 
+   div.moreinfo{
+      display: none;
+    }
+   
    div.moreinfo ul{
     list-style: none;
     margin-left: 15px;
@@ -217,9 +229,6 @@ textarea {
     color: teal;
     font-size: 19px;
    }
-
-
-
 
 
 

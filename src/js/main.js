@@ -13,6 +13,11 @@ $(window).scroll(function() {
 });
 
 
+$( ".homeButton" ).click(function() {
+  $('.pagecontent div').hide();
+  $('.pagecontent .home').show();
+});
+
 $( ".timelineButton" ).click(function() {
   $('.pagecontent div').hide();
   $('.pagecontent .timeline').show();
