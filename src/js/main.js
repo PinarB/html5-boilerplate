@@ -12,6 +12,9 @@ $(window).scroll(function() {
 	console.log('scroll');
 });
 
+$('.contactButton').click(function() {
+	window.location.href='mailto:pin.barlas@gmail.com'
+});
 
 $( ".homeButton" ).click(function() {
   $('.pagecontent div').hide();
