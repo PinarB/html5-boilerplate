@@ -4,17 +4,35 @@ $(document).ready(function() {
 	console.log('ready');
 });
 
+
+
 $(window).resize(function() {
 	console.log('resize');
 });
+
+
 
 $(window).scroll(function() {
 	console.log('scroll');
 });
 
+$(document).ready(function(){
+  $(window).bind('scroll', function() {
+    var distance = 50;
+    if ($(window).scrollTop() > distance) {
+      $('.heading h1').addClass('scrolled');
+    }
+    else {
+      $('.heading h1').removeClass('scrolled');
+    }
+  });
+
+
+
 $('.contactButton').click(function() {
 	window.location.href='mailto:pin.barlas@gmail.com'
 });
+
 
 $( ".homeButton" ).click(function() {
   $('.pagecontent div').hide();
@@ -38,15 +56,4 @@ $( ".infoButton" ).click(function() {
   $('.pagecontent div').hide();
   $('.pagecontent .moreinfo').show();
 });
-
-$(document).ready(function(){
-  $(window).bind('scroll', function() {
-    var distance = 50;
-    if ($(window).scrollTop() > distance) {
-      $('.heading h1').addClass('scrolled');
-    }
-    else {
-      $('.heading h1').removeClass('scrolled');
-    }
-  });
 });

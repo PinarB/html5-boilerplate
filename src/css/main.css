@@ -1,3 +1,53 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -89,12 +139,14 @@ textarea {
    ========================================================================== */
    body{
     font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    line-height: 4vh;
    }
 
    div.home {
-    background-image: url('../img/tablepic.jpg');
+    background-image: url('../img/tablepic.png');
     background-repeat: no-repeat;
-    background-position: cover;
+    background-position: center;
     height: 100vh;
     width: auto;
     z-index: 0;
@@ -104,9 +156,10 @@ textarea {
     font-size: 9vh;
     display: inline-block;
     position: fixed;
-    top: -4.6vh;
+    top: 4vh;
     left: 2vw;
     font-family: 'Cinzel', serif;
+    font-weight: bolder;
     z-index: 100;
     transition: top 0.5s ease;
     transition: background-color 0.5s ease;
@@ -126,9 +179,9 @@ textarea {
    }
 
    button {
-    background-color: #bf4080;
+    background-color: #913d88;
     border: none;
-    color: black;
+    color: white;
     padding: 1.5vh 3.2vw;
     text-align: center;
     text-decoration: none;
@@ -138,7 +191,7 @@ textarea {
     }
 
     button:hover{
-        background-color: #993366;
+        background-color: #78246F;
         color: white;
     }
 
@@ -153,11 +206,11 @@ textarea {
 
 
    h2{
-    font-size: 40px;
+    font-size: 4vh;
     margin-left: 15px;
     margin-top: 14vh;
-    border: solid palevioletred;
-    border-width: 0 0 5px 0;
+    border: solid #78246F;
+    border-width: 0 0 .5vh 0;
    }
     
     div.timeline {
@@ -167,23 +220,24 @@ textarea {
 
     div.timeline img{
     z-index: -5;
-    margin-left: 120px;
-    margin-top: 15px;
+    margin-left: 10vw;
+    margin-top: 3vh;
     position: absolute;
     width: auto;
-    height: 1500px;
+    height: 130vh;
    }
 
    div.timeline div.words{
     z-index: 3;
-    margin-left: 275px;
-    margin-top: 75px;
+    margin-left: 24vw;
+    margin-top: 7.5vh;
    }
 
    div.timeline div.words h5{
-    margin-left: -75px;
+    margin-left: -6vw;
     color: palevioletred;
-    font-size: 15px;
+    font-size: 1.7vh;
+    font-weight: bold;
    }
 
    div.timeline div.words div.clarkstuff{
@@ -211,7 +265,8 @@ textarea {
    }
 
    div.skills img{
-   margin-left: 50px;
+   margin-left: 5vw;
+   margin-top: 3vh;
       }
 
    div.moreinfo{
@@ -220,7 +275,8 @@ textarea {
    
    div.moreinfo ul{
     list-style: none;
-    margin-left: 15px;
+    margin-left: 5vw;
+    margin-top: 3vh;
    }
 
    div.moreinfo li{
