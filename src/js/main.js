@@ -39,3 +39,14 @@ $( ".infoButton" ).click(function() {
   $('.pagecontent .moreinfo').show();
 });
 
+$(document).ready(function(){
+  $(window).bind('scroll', function() {
+    var distance = 50;
+    if ($(window).scrollTop() > distance) {
+      $('.heading h1').addClass('scrolled');
+    }
+    else {
+      $('.heading h1').removeClass('scrolled');
+    }
+  });
+});

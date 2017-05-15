@@ -94,31 +94,27 @@ textarea {
    div.home {
     background-image: url('../img/tablepic.jpg');
     background-repeat: no-repeat;
-    background-position: center;
-    height: 98vh;
+    background-position: cover;
+    height: 100vh;
+    width: auto;
     z-index: 0;
    }
 
    div.heading h1.name{
     font-size: 9vh;
-    margin: 0;
-    margin-left: 2vw;
     display: inline-block;
-    position: absolute;
+    position: fixed;
+    top: -4.6vh;
+    left: 2vw;
     font-family: 'Cinzel', serif;
     z-index: 100;
+    transition: top 0.5s ease;
+    transition: background-color 0.5s ease;
    }
 
-   div.heading div.contact{
-    margin-top: 2vw;
-    display: inline-block;
-    float: right;
-    margin-right: 2vw;
-    text-align: center;
-    line-height: 2.5vh;
-    padding: 2vw;
-    z-index: 100;
-   }
+    .scrolled {
+      background: #ffffff;
+    }
 
    nav{
     text-align: center;
@@ -137,7 +133,7 @@ textarea {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2.16vh;
+    font-size: 2vh;
     cursor: pointer;
     }
 
@@ -146,11 +142,20 @@ textarea {
         color: white;
     }
 
+   div.heading button{
+    position: fixed;
+    right: 2vw;
+    top: 4vh;
+    text-align: center;
+    line-height: 2.5vh;
+    z-index: 100;
+   }
+
 
    h2{
     font-size: 40px;
     margin-left: 15px;
-    margin-top: 15px;
+    margin-top: 14vh;
     border: solid palevioletred;
     border-width: 0 0 5px 0;
    }
@@ -162,16 +167,17 @@ textarea {
 
     div.timeline img{
     z-index: -5;
-    margin-left: -100px;
+    margin-left: 120px;
     margin-top: 15px;
     position: absolute;
     width: auto;
-    height: 1300px;
+    height: 1500px;
    }
 
    div.timeline div.words{
     z-index: 3;
     margin-left: 275px;
+    margin-top: 75px;
    }
 
    div.timeline div.words h5{
