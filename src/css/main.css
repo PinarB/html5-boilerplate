@@ -141,10 +141,12 @@ textarea {
     font-family: 'Roboto', sans-serif;
     font-size: 2vh;
     line-height: 4vh;
+    color: white;
+    background-color: black;
    }
 
    div.home {
-    background-image: url('../img/tablepic.png');
+    background-image: url('../img/tablepic.jpg');
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
@@ -156,60 +158,54 @@ textarea {
     font-size: 9vh;
     display: inline-block;
     position: fixed;
-    top: 4vh;
-    left: 2vw;
+    bottom: 2vh;
+    left: 1vw;
+    padding: 1.5vh;
     font-family: 'Cinzel', serif;
-    font-weight: bolder;
     z-index: 100;
     transition: top 0.5s ease;
     transition: background-color 0.5s ease;
+    color: white;
    }
 
     .scrolled {
-      background: #ffffff;
+      background: #000000;
     }
 
    nav{
-    text-align: center;
     position: fixed;
+    text-align: right;
     z-index: 9999;
-    bottom: 0;
+    bottom: 1vh;
     left: 0;
-    right: 0;
+    right: 2vw;
    }
 
    button {
-    background-color: #913d88;
+    background-color: #8c8c8c;
     border: none;
     color: white;
-    padding: 1.5vh 3.2vw;
+    padding: 1vh 1vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 2vh;
     cursor: pointer;
+    border: solid #a6a6a6;
+    border-width: .3vh .3vh .3vh .3vh;
     }
 
     button:hover{
-        background-color: #78246F;
+        background-color: #666666;
         color: white;
     }
-
-   div.heading button{
-    position: fixed;
-    right: 2vw;
-    top: 4vh;
-    text-align: center;
-    line-height: 2.5vh;
-    z-index: 100;
-   }
 
 
    h2{
     font-size: 4vh;
-    margin-left: 15px;
-    margin-top: 14vh;
-    border: solid #78246F;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    border: solid #666666;
     border-width: 0 0 .5vh 0;
    }
     
@@ -235,16 +231,17 @@ textarea {
 
    div.timeline div.words h5{
     margin-left: -6vw;
-    color: palevioletred;
+    color: #8c8c8c;
     font-size: 1.7vh;
-    font-weight: bold;
+    font-weight: bolder;
+    margin-top: 2.5vh;
    }
 
    div.timeline div.words div.clarkstuff{
     margin-left: 150px;
    }
 
-   div.timeline div.words div.clarkstuff h3{
+   div.timeline div.words h3{
     margin-left: -25px;
    }
 
@@ -252,12 +249,9 @@ textarea {
     margin-left: 150px;
    }
 
-   div.timeline div.words div.hsstuff h3{
-    margin-left: -25px;
-   }
-
-   div.timeline a{
-    color: teal;
+   a{
+    color: #a146f2;
+    font-size: 2vh;
    }
 
    div.skills {
@@ -280,11 +274,6 @@ textarea {
    }
 
    div.moreinfo li{
-    font-size: 19px;
-   }
-
-   div.moreinfo a{
-    color: teal;
     font-size: 19px;
    }
 

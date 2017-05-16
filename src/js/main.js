@@ -18,7 +18,7 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
   $(window).bind('scroll', function() {
-    var distance = 50;
+    var distance = 1;
     if ($(window).scrollTop() > distance) {
       $('.heading h1').addClass('scrolled');
     }
