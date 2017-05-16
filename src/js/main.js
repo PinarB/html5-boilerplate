@@ -16,19 +16,6 @@ $(window).scroll(function() {
 	console.log('scroll');
 });
 
-$(document).ready(function(){
-  $(window).bind('scroll', function() {
-    var distance = 1;
-    if ($(window).scrollTop() > distance) {
-      $('.heading h1').addClass('scrolled');
-    }
-    else {
-      $('.heading h1').removeClass('scrolled');
-    }
-  });
-
-
-
 $('.contactButton').click(function() {
 	window.location.href='mailto:pin.barlas@gmail.com'
 });
@@ -36,6 +23,7 @@ $('.contactButton').click(function() {
 
 $( ".homeButton" ).click(function() {
   $('.pagecontent div').hide();
+  $('h1').removeClass('scrolled');
   $('.pagecontent .home').show();
 });
 
@@ -45,15 +33,17 @@ $( ".timelineButton" ).click(function() {
   $('.pagecontent .timeline .words').show();
   $('.pagecontent .timeline .words .hsstuff').show();
   $('.pagecontent .timeline .words .clarkstuff').show();
+  $('h1').addClass('scrolled');
 });
 
 $( ".skillsButton" ).click(function() {
   $('.pagecontent div').hide();
+  $('h1').removeClass('scrolled');
   $('.pagecontent .skills').show();
 });
 
 $( ".infoButton" ).click(function() {
   $('.pagecontent div').hide();
+  $('h1').removeClass('scrolled');
   $('.pagecontent .moreinfo').show();
-});
 });

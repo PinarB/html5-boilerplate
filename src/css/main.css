@@ -156,13 +156,12 @@ textarea {
 
    div.heading h1.name{
     font-size: 9vh;
-    display: inline-block;
     position: fixed;
     bottom: 2vh;
     left: 1vw;
     padding: 1.5vh;
     font-family: 'Cinzel', serif;
-    z-index: 100;
+    z-index: 9999;
     transition: top 0.5s ease;
     transition: background-color 0.5s ease;
     color: white;
@@ -250,7 +249,7 @@ textarea {
    }
 
    a{
-    color: #a146f2;
+    color: #bf40bf;
     font-size: 2vh;
    }
 
