@@ -145,14 +145,11 @@ textarea {
     background-color: black;
    }
 
-   div.home {
-    background-image: url('../img/tablepic.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: auto;
-    z-index: 0;
+   a{
+    color: #bf40bf;
+    font-size: 2vh;
    }
+
 
    div.heading h1.name{
     font-size: 9vh;
@@ -171,7 +168,7 @@ textarea {
       background: #000000;
     }
 
-   nav{
+    nav{
     position: fixed;
     text-align: right;
     z-index: 9999;
@@ -200,6 +197,17 @@ textarea {
     }
 
 
+
+   div.home {
+    background-image: url('../img/tablepic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    z-index: 0;
+   }
+
+
    h2{
     font-size: 4vh;
     margin-left: 2vw;
@@ -208,10 +216,10 @@ textarea {
     border-width: 0 0 .5vh 0;
    }
     
+   
     div.timeline {
       display: none;
     }
-
 
     div.timeline img{
     z-index: -5;
@@ -236,22 +244,15 @@ textarea {
     margin-top: 2.5vh;
    }
 
-   div.timeline div.words div.clarkstuff{
-    margin-left: 150px;
+   div.timeline div.words div{
+    margin-left: 15vw;
    }
 
    div.timeline div.words h3{
-    margin-left: -25px;
+    margin-left: -2.5vw;
    }
 
-   div.timeline div.words div.hsstuff{
-    margin-left: 150px;
-   }
 
-   a{
-    color: #bf40bf;
-    font-size: 2vh;
-   }
 
    div.skills {
     display: none;
@@ -262,6 +263,7 @@ textarea {
    margin-top: 3vh;
       }
 
+
    div.moreinfo{
       display: none;
     }
@@ -270,10 +272,6 @@ textarea {
     list-style: none;
     margin-left: 5vw;
     margin-top: 3vh;
-   }
-
-   div.moreinfo li{
-    font-size: 19px;
    }
 
 
