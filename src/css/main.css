@@ -150,6 +150,11 @@ textarea {
     font-size: 2vh;
    }
 
+   p{
+    margin-left: 3vw;
+    margin-top: 2vh;
+   }
+
 
    div.heading h1.name{
     font-size: 9vh;
@@ -254,8 +259,6 @@ textarea {
    div.timeline div.words h3{
     margin-left: -2.5vw;
    }
-
-
 
    div.skills {
     display: none;

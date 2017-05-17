@@ -5,11 +5,9 @@ $(document).ready(function() {
 });
 
 
-
 $(window).resize(function() {
 	console.log('resize');
 });
-
 
 
 $(window).scroll(function() {
@@ -27,6 +25,12 @@ $( ".homeButton" ).click(function() {
   $('.pagecontent .home').show();
 });
 
+$( ".infoButton" ).click(function() {
+  $('.pagecontent div').hide();
+  $('h1').removeClass('scrolled');
+  $('.pagecontent .moreinfo').show();
+});
+
 $( ".timelineButton" ).click(function() {
   $('.pagecontent div').hide();
   $('.pagecontent .timeline').show();
@@ -42,8 +46,3 @@ $( ".skillsButton" ).click(function() {
   $('.pagecontent .skills').show();
 });
 
-$( ".infoButton" ).click(function() {
-  $('.pagecontent div').hide();
-  $('h1').removeClass('scrolled');
-  $('.pagecontent .moreinfo').show();
-});
