@@ -192,8 +192,11 @@ textarea {
     }
 
     button:hover{
-        background-color: #666666;
-        color: white;
+      background-color: #666666;
+    }
+
+    button.contactButton:hover{
+      background-color: #bf40bf;
     }
 
 
@@ -259,13 +262,14 @@ textarea {
    }
 
    div.skills img{
-   margin-left: 5vw;
-   margin-top: 3vh;
-      }
+    margin-left: 5vw;
+    margin-top: 4vh;
+    max-width: 75vw;
+   }
 
 
    div.moreinfo{
-      display: none;
+    display: none;
     }
    
    div.moreinfo ul{
